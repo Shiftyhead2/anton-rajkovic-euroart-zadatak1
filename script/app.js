@@ -12,6 +12,7 @@ window.addEventListener('load', () => {
   setTimeout(() => {
     main.style.display = "block";
     loader.style.display = "none";
+    main.className += " fade";
     swiper = new Swiper(".hero__section--welcome .hero-swiper", {
       direction: "horizontal",
       lazy:true,
